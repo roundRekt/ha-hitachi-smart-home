@@ -1,0 +1,13 @@
+{
+  "domain": "ha_hatachi",
+  "name": "Hitachi AC",
+  "documentation": "https://github.com/kiwiw/ha-hatachi",
+  "dependencies": [],
+  "codeowners": [
+    "@kiwiw"
+  ],
+  "requirements": [],
+  "version": "0.1.0",
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}

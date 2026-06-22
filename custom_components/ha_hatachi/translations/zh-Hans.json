@@ -1,0 +1,17 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "海信日立中央空调",
+        "description": "输入 iEZ2 应用的登录信息，插件将自动发现您账户下的所有内机设备。",
+        "data": {
+          "username": "手机号",
+          "password": "密码"
+        }
+      }
+    },
+    "error": {
+      "invalid_login": "登录失败，请检查手机号和密码"
+    }
+  }
+}
