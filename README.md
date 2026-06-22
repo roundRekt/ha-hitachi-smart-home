@@ -24,7 +24,7 @@ Home Assistant 自定义集成，用于控制**海信日立 (Hisense Hitachi) �
 ### 方式一：HACS（推荐）
 
 1. 确保已安装 [HACS](https://hacs.xyz/)
-2. 在 HACS 中添加自定义仓库：`https://github.com/kiwiw/ha-hatachi`
+2. 在 HACS 中添加自定义仓库：`https://github.com/wuqiyu007/ha-hatachi`
 3. 类别选择「集成 (Integration)」
 4. 搜索 "Hitachi AC" 并安装
 5. 重启 Home Assistant

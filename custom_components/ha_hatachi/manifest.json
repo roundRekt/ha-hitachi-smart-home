@@ -1,10 +1,10 @@
 {
   "domain": "ha_hatachi",
   "name": "Hitachi AC",
-  "documentation": "https://github.com/kiwiw/ha-hatachi",
+  "documentation": "https://github.com/wuqiyu007/ha-hatachi",
   "dependencies": [],
   "codeowners": [
-    "@kiwiw"
+    "@wuqiyu007"
   ],
   "requirements": [],
   "version": "0.1.0",
