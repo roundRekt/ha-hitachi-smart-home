@@ -36,7 +36,7 @@ Home Assistant 自定义集成，用于控制**海信日立 (Hisense Hitachi) �
 cd /path/to/your/homeassistant/config/custom_components
 
 # 克隆仓库
-git clone https://github.com/kiwiw/ha-hatachi.git temp
+git clone https://github.com/kiwiwiki007/ha-hatachi.git temp
 mv temp/custom_components/ha_hatachi .
 rm -rf temp
 ```
