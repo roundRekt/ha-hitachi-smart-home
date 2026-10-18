@@ -22,13 +22,13 @@
     },
     "sensor": {
       "indoor_temperature": {
-        "name": "室内温度"
+        "name": "温度"
       },
       "indoor_humidity": {
-        "name": "室内湿度"
+        "name": "湿度"
       },
       "indoor_pm25": {
-        "name": "室内PM2.5"
+        "name": "PM2.5"
       }
     }
   }

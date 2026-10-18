@@ -22,13 +22,13 @@
     },
     "sensor": {
       "indoor_temperature": {
-        "name": "Indoor Temperature"
+        "name": "Temperature"
       },
       "indoor_humidity": {
-        "name": "Indoor Humidity"
+        "name": "Humidity"
       },
       "indoor_pm25": {
-        "name": "Indoor PM2.5"
+        "name": "PM2.5"
       }
     }
   }
