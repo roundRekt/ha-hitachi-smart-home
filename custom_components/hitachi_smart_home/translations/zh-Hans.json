@@ -29,18 +29,6 @@
       },
       "indoor_pm25": {
         "name": "室内PM2.5"
-      },
-      "outdoor_temperature": {
-        "name": "室外温度"
-      },
-      "outdoor_humidity": {
-        "name": "室外湿度"
-      },
-      "outdoor_pm25": {
-        "name": "室外PM2.5"
-      },
-      "outdoor_aqi": {
-        "name": "室外空气质量指数"
       }
     }
   }

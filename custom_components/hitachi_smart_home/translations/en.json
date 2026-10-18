@@ -29,18 +29,6 @@
       },
       "indoor_pm25": {
         "name": "Indoor PM2.5"
-      },
-      "outdoor_temperature": {
-        "name": "Outdoor Temperature"
-      },
-      "outdoor_humidity": {
-        "name": "Outdoor Humidity"
-      },
-      "outdoor_pm25": {
-        "name": "Outdoor PM2.5"
-      },
-      "outdoor_aqi": {
-        "name": "Outdoor AQI"
       }
     }
   }
