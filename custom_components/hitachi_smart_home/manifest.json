@@ -1,0 +1,14 @@
+{
+  "domain": "hitachi_smart_home",
+  "name": "日立智家",
+  "documentation": "https://github.com/roundRekt/ha-hitachi-smart-home",
+  "dependencies": [],
+  "codeowners": [
+    "@kiwiwiki007",
+    "@roundRekt"
+  ],
+  "requirements": [],
+  "version": "0.1.0",
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}

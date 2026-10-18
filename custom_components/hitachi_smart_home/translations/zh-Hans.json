@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "日立智家",
+        "description": "输入日立智家的登录信息，插件将自动发现您账户下的所有内机和线控器设备。",
+        "data": {
+          "username": "手机号",
+          "password": "密码"
+        }
+      }
+    },
+    "error": {
+      "invalid_login": "登录失败，请检查手机号和密码"
+    }
+  },
+  "entity": {
+    "switch": {
+      "key_sound_switch": {
+        "name": "按键音"
+      }
+    },
+    "sensor": {
+      "indoor_temperature": {
+        "name": "室内温度"
+      },
+      "indoor_humidity": {
+        "name": "室内湿度"
+      },
+      "indoor_pm25": {
+        "name": "室内PM2.5"
+      },
+      "outdoor_temperature": {
+        "name": "室外温度"
+      },
+      "outdoor_humidity": {
+        "name": "室外湿度"
+      },
+      "outdoor_pm25": {
+        "name": "室外PM2.5"
+      },
+      "outdoor_aqi": {
+        "name": "室外空气质量指数"
+      }
+    }
+  }
+}

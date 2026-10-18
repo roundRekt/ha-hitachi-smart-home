@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Hitachi Smart Home",
+        "description": "Enter your Hitachi Smart Home app login credentials. The integration will automatically discover all indoor units and wire controllers under your account.",
+        "data": {
+          "username": "Phone Number",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_login": "Login failed. Please check your phone number and password."
+    }
+  },
+  "entity": {
+    "switch": {
+      "key_sound_switch": {
+        "name": "Key Sound"
+      }
+    },
+    "sensor": {
+      "indoor_temperature": {
+        "name": "Indoor Temperature"
+      },
+      "indoor_humidity": {
+        "name": "Indoor Humidity"
+      },
+      "indoor_pm25": {
+        "name": "Indoor PM2.5"
+      },
+      "outdoor_temperature": {
+        "name": "Outdoor Temperature"
+      },
+      "outdoor_humidity": {
+        "name": "Outdoor Humidity"
+      },
+      "outdoor_pm25": {
+        "name": "Outdoor PM2.5"
+      },
+      "outdoor_aqi": {
+        "name": "Outdoor AQI"
+      }
+    }
+  }
+}

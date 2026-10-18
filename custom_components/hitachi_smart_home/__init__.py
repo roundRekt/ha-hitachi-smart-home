@@ -1,4 +1,4 @@
-"""ha-hatachi integration for Hisense Hitachi Central AC."""
+"""ha-hitachi-smart-home integration for Hitachi Smart Home."""
 
 import logging
 from dataclasses import dataclass
@@ -10,7 +10,7 @@ from homeassistant.core import HomeAssistant
 from .const import DOMAIN, CONF_TOKEN, CONF_REFRESH_TOKEN
 from .coordinator import Coordinator
 
-PLATFORMS = [Platform.CLIMATE]
+PLATFORMS = [Platform.CLIMATE, Platform.SWITCH, Platform.SENSOR]
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -31,7 +31,9 @@ async def async_setup_entry(hass: HomeAssistant, entry: HitachiConfigEntry):
     token = entry.data[CONF_TOKEN]
     refresh_token = entry.data.get(CONF_REFRESH_TOKEN, "")
 
-    coordinator = Coordinator(hass, username, password, token, refresh_token)
+    coordinator = Coordinator(
+        hass, username, password, token, refresh_token, config_entry=entry
+    )
     entry.runtime_data = HitachiData(coordinator=coordinator)
 
     # First refresh triggers _async_setup -> auth + device discovery

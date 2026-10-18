@@ -1,4 +1,4 @@
-"""Config flow for ha-hatachi."""
+"""Config flow for ha-hitachi-smart-home."""
 
 from __future__ import annotations
 
@@ -16,8 +16,8 @@ from .api import HitachiApi
 _LOGGER = logging.getLogger(__name__)
 
 
-class HatachiConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """Handle a config flow for ha-hatachi."""
+class HitachiConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+    """Handle a config flow for ha-hitachi-smart-home."""
 
     VERSION = 1
 
